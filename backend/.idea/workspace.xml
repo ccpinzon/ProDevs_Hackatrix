@@ -3,7 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="a5fee702-66f5-4ab7-818f-8e459ea61770" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsonUser.json" beforeDir="false" afterPath="$PROJECT_DIR$/jsonUser.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/index.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sample.integration.http.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sample.integration.pubsub.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sample.integration.storage.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sample.system.http.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sample.system.pubsub.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sample.system.storage.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sample.unit.http.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sample.unit.pubsub.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sample.unit.storage.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,7 +47,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -46,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jsonUser.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="54" column="39" lean-forward="true" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+            <state relative-caret-position="750">
+              <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -66,6 +76,14 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>helloGET</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>user</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -76,6 +94,7 @@
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/jsonUser.json" />
+        <option value="$PROJECT_DIR$/test/index.test.js" />
       </list>
     </option>
   </component>
@@ -119,6 +138,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -135,6 +155,45 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Mocha.index.test.js">
+    <configuration name="index.test.js" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/test/index.test.js</test-file>
+      <test-names>
+        <name value="index.test.js" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="index.test.js.user" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/test/index.test.js</test-file>
+      <test-names>
+        <name value="index.test.js" />
+        <name value="user" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Mocha.index.test.js" />
+        <item itemvalue="Mocha.index.test.js.user" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -145,27 +204,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569685803287</updated>
-      <workItem from="1569685806119" duration="3934000" />
+      <workItem from="1569685806119" duration="4248000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="index_test_js_user - 2019.09.28 at 12h 08m 14s.xml">
+      <configuration name="index.test.js.user" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="index_test_js - 2019.09.28 at 12h 08m 18s.xml">
+      <configuration name="index.test.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3934000" />
+    <option name="totallyTimeSpent" value="4248000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="979" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14044605" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24834238" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.37429538" />
+      <window_info anchor="bottom" id="Terminal" weight="0.37429538" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32919955" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -196,13 +263,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -210,10 +270,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/sample.unit.http.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/index.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="80" column="19" lean-forward="true" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jsonUser.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="54" column="39" lean-forward="true" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+        <state relative-caret-position="750">
+          <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
         </state>
       </provider>
     </entry>
