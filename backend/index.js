@@ -14,13 +14,14 @@ function  getJsonOriginal(){
     return JSON.parse(fs.readFileSync('jsonUser.json', 'utf8'));
 }
 
-function calculateInvoiceValue(jsonObject) {
+async function calculateValueTotal(jsonObject) {
 
     let min = 20000;
     let max = 180000;
-
-    jsonObject.invoiceValue = Math.round(Math.random() * (max - min));
-
+    let value = Math.round(Math.random() * (max - min));
+    let discount = 10000;
+    jsonObject.discount = Math.round(Math.random() * (max - min));
+    jsonObject.invoiceValue = value - discount;
     return jsonObject;
 }
 
@@ -29,23 +30,25 @@ function getData(jsonData,dataObj){
     return {"data": jsonData[dataObj.toString()]}
 }
 
-exports.dataEscoltApp = (req, res) => {
+exports.dataEscoltApp = async (req, res) => {
     res.set('Access-Control-Allow-Origin', "*");
     res.set('Access-Control-Allow-Methods', 'GET, POST');
     let data = req.query.data;
     console.log("data -> " + data);
     // si se requiere algun tipo de info especifico
-    if (data === "all"){
+    if (data === "all") {
         data = undefined;
         jsonObject = getJsonOriginal();
     }
 
-    if (data !== undefined ){
+    if (data !== undefined) {
         jsonObject = getJsonOriginal();
 
-        jsonObject = getData(jsonObject,data)
+        jsonObject = getData(jsonObject, data)
     }
-    calculateInvoiceValue(jsonObject);
+    if (data === "resume") {
+        await calculateValueTotal(jsonObject);
+    }
     res.send(jsonObject);
 };
 
