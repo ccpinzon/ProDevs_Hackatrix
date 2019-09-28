@@ -27,15 +27,21 @@ class BasicInfo extends Component {
   render() {
     return (
       <div>
-        <i className="fas fa-caret-down"></i>
-        <h5 className="info_title">Información Básica</h5>
+        <div className="row">
+          <div className="col-sm-1">
+            <i className="fas fa-caret-down"></i>
+          </div>
+          <div className="col-sm-4">
+            <h5 id="info-title">Información Básica</h5>
+          </div>
+        </div>
         <Form>
           <Form.Group controlId="user">
-            <div className="row justify-content-center align-self-center">
+            <div className="row align-self-center">
               <div className="col-sm-3">
                 <Form.Label>Servicio para: </Form.Label>
               </div>
-              <div className="col-sm-9">
+              <div className="col-sm-8">
                 <Form.Control as="select">
                   <option>Mí mismo</option>
                   <option>Hija - Andrea</option>
@@ -51,7 +57,7 @@ class BasicInfo extends Component {
               <div className="col-sm-3">
                 <Form.Label>Tipo de servicio: </Form.Label>
               </div>
-              <div className="col-sm-9">
+              <div className="col-sm-8">
                 <Form.Control as="select">
                   <option>Acompañamiento en ruta</option>
                   <option>Escolta</option>

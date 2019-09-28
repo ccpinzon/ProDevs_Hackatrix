@@ -1,5 +1,34 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans&display=swap");
+
+$color-dark: #2c3e50;
+$color-red: #3498db;
+$color-light: #ecf0f1;
 
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Fira Sans", sans-serif !important;
+}
+
+.nav1 {
+  background-color: $color-light;
+}
+
+#services-link:visited,
+#services-link:link {
+  color: $color-dark !important;
+}
+
+#services:hover {
+  color: lighten($color-dark, 50%) !important;
+}
+
+.fa-caret-down {
+  color: $color-red;
+}
+
+#title-preferencies {
+  color: $color-red;
+}
+
+#info-title {
+  color: $color-red;
 }
