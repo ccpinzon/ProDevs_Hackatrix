@@ -1,0 +1,35 @@
+{
+    "userName": "David Fernando Gutierrez",
+    "nickName": "dguti",
+    "idUser": "S1mpl3U5er425",
+    "userType": "person",
+    "payMethods": {
+        "credit_card": [
+            {
+                "cardTck": "CARD-XXXXXXXXXXXXXXXXXXXXXXXX",
+                "cardBrand": "VISA"
+            },
+            {
+                "cardTck": "CARD-XXXXXXXXXXXXXXXXXXXXXXXX",
+                "cardBrand": "MASTER-CARD"
+            }
+        ],
+        "cash": {},
+        "paypal": {
+            "accountPaypal": "dguti0917",
+            "paypalTocken": "p4yp41425"
+        }
+    },
+    "activeServices": [
+        {
+            "type": "",
+
+        }
+    ]
+}
+
+{
+	"typeServices":[
+		
+	]
+}
