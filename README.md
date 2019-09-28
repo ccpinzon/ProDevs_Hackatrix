@@ -1,8 +1,12 @@
 # ProDevs_Hackatrix
 
 
-## codigo del proyecto escoltapp
+## Project  escoltapp
 
-# Backend
+## Backend
 
-# Frontend
+NodeJS with Express, and Cloud SQL.
+
+## Frontend
+
+React with bootstrap
