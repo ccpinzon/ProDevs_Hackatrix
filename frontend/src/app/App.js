@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./sass/main.scss";
 import { BasicInfo } from "./components/BasicInfo";
 import { Header } from "./components/Header";
+import { Preferences } from "./components/Preferences";
 
 class App extends Component {
   constructor() {
@@ -16,7 +17,9 @@ class App extends Component {
         <div className="row">
           <div className="col-md-7">
             <BasicInfo />
+            <Preferences />
           </div>
+          <div className="col-xl-5"></div>
         </div>
       </div>
     );

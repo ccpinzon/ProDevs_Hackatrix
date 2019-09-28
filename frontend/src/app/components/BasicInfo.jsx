@@ -27,6 +27,8 @@ class BasicInfo extends Component {
   render() {
     return (
       <div>
+        <i class="fas fa-caret-down"></i>
+        <h5 className="info_title">Información Básica</h5>
         <Form>
           <Form.Group controlId="user">
             <Form.Label>Servicio para: </Form.Label>
