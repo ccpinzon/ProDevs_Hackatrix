@@ -1,18 +1,19 @@
-import { React } from "react";
+import React, { Component } from "react";
+import { Navbar, Nav } from "react-bootstrap/";
 
-export default function Header(props) {
-  return (
-    <Navbar bg="light" variant="light">
-      <Navbar.Brand href="#home">
-        <img
-          alt=""
-          src="/logo.svg"
-          width="30"
-          height="30"
-          className="d-inline-block align-top"
-        />
-        {" React Bootstrap"}
-      </Navbar.Brand>
-    </Navbar>
-  );
+class Header extends Component {
+  render() {
+    return (
+      <div>
+        <Navbar bg="light" variant="light" className="justify-content-between">
+          <Navbar.Brand href="#home">
+            <span className="font-weight-bold">Ecolt</span>App
+          </Navbar.Brand>
+          <Nav.Link href="#">¿Eres empresa?</Nav.Link>
+        </Navbar>
+      </div>
+    );
+  }
 }
+
+export { Header };
