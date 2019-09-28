@@ -22,14 +22,49 @@
     },
     "activeServices": [
         {
-            "type": "",
+            "idType": 0000080,
+			"descType":"Acompañamiento en ruta",
+			"firstPointLat":-33.445436, 
+			"firstPointLon":-70.605439,
+			"endPointLat":-33.415167,  
+			"endPointLon":-70.571733,
+			"onlyWay": 1,
+			
 
         }
     ]
 }
 
-{
-	"typeServices":[
-		
+/*=========== json Tipos de Servicio =========
+
+"serviceTypes":[
+		{
+			"serviceId": 0000080,
+			"Acompañamiento en ruta"
+		},
+		{
+			"serviceId": 0000004,
+			"Acompañamiento En Intercambio comercial"
+		},
+		{
+			"serviceId": 0000004,
+			"Acompañamiento en punto fijo"
+		},
+		{
+			"serviceId": 0000004,
+			"Acompañamiento por Horas"
+		},
+		{
+			"serviceId": 0000004,
+			"Acompañamiento bilingüe"
+		},
+		{
+			"serviceId": 0000004,
+			"A"
+		},
+		{
+			"serviceId": 0000004,
+			"A"
+		}
 	]
-}
+*/
