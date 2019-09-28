@@ -3,14 +3,30 @@
   "nickName": "dguti",
   "idUser": "S1mpl3U5er425",
   "userType": "person",
+  "email":"dguti@gmail.com",
+  "phone":"+57 304 1234567",
+  "partnerUsers":[
+    {
+      "idPartner": 10,
+      "name": "Andrea Gutierrez",
+      "relationship":"Hija",
+      "phone":"+57 311 6774381"
+    },
+    {
+      "idPartner": 20,
+      "name": "Juan Gutierrez",
+      "relationship":"Hijo",
+      "phone":"+57 311 4747852"
+    }
+  ],
   "payMethods": {
     "credit_card": [
       {
-        "cardTck": "CARD-XXXXXXXXXXXXXXXXXXXXXXXX",
+        "cardTck": "CARD-XXXXXXXX745",
         "cardBrand": "VISA"
       },
       {
-        "cardTck": "CARD-XXXXXXXXXXXXXXXXXXXXXXXX",
+        "cardTck": "CARD-XXXXXXXX624",
         "cardBrand": "MASTER-CARD"
       }
     ],
@@ -24,11 +40,13 @@
     {
       "idType": 80,
       "descType":"Acompañamiento en ruta",
+      "ServiceBy": 10,
       "firstPointLat":-33.445436,
       "firstPointLon":-70.605439,
       "endPointLat":-33.415167,
       "endPointLon":-70.571733,
       "onlyWay": true,
+      "paymentType": "credit-card",
       "serviceDate": "2019/09/30 22:00:00",
       "weapon" : {
         "needed": true,
@@ -53,7 +71,33 @@
             "Certificado"
           ],
           "transportType":"Motocicleta"
-
+        }
+      ],
+      "serviceObservation":"Llamar cuando llegue al lugar, esperarme afuera"
+    },
+    {
+      "idType": 90,
+      "descType":"Acompañamiento Intercambio comercial",
+      "ServiceBy": "own",
+      "firstPointLat":4.648796, 
+      "firstPointLon":-74.101426,
+      "endPointLat":null,
+      "endPointLon":null,
+      "onlyWay": true,
+      "paymentType": "cash",
+      "serviceDate": "2019/10/30 22:00:00",
+      "weapon" : {
+        "needed": true,
+        "type": "Defensa Personal"
+      },
+      "bodyguard": [
+        {
+          "id": 7325972,
+          "name":"Juan Pablo",
+          "skills":[
+            "Certificado"
+          ],
+          "transportType":"Motocicleta"
         }
       ],
       "serviceObservation":"Llamar cuando llegue al lugar, esperarme afuera"
