@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { ListGroup } from "react-bootstrap";
+import { ListGroup, Form } from "react-bootstrap";
 
 class Summary extends Component {
   render() {
@@ -10,11 +10,17 @@ class Summary extends Component {
         <ListGroup.Item>Valor por distancia: $38.000</ListGroup.Item>
         <ListGroup.Item>Valor por tiempo $10.000</ListGroup.Item>
         <ListGroup.Item>Descuento: 8.000 (cupon 1 vez)</ListGroup.Item>
-        <br />
-        <ListGroup variant="flush">
-          <ListGroup.Item variant="success">Total:40.000</ListGroup.Item>
-          <ListGroup.Item variant="warning">Medio de pago</ListGroup.Item>
-        </ListGroup>
+        <ListGroup.Item variant="success">Total:40.000</ListGroup.Item>
+        <ListGroup.Item>
+          <Form.Group controlId="user">
+            <Form.Label htm>Medio de pago </Form.Label>
+            <Form.Control as="select">
+              <option>Efectivo</option>
+              <option>Tarjeta</option>
+              <option>PayPal</option>
+            </Form.Control>
+          </Form.Group>
+        </ListGroup.Item>
       </ListGroup>
     );
   }
