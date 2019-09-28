@@ -12,7 +12,7 @@ class Summary extends Component {
         <ListGroup.Item>Descuento: 8.000 (cupon 1 vez)</ListGroup.Item>
         <br />
         <ListGroup variant="flush">
-          <ListGroup.Item variant="success">Total:40.000</ListGroup.Item>
+          <ListGroup.Item variant="success">Total: $40.000</ListGroup.Item>
           <ListGroup.Item variant="warning">Medio de pago</ListGroup.Item>
         </ListGroup>
       </ListGroup>
