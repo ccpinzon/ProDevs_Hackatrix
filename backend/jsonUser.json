@@ -1,36 +1,62 @@
 {
-    "userName": "David Fernando Gutierrez",
-    "nickName": "dguti",
-    "idUser": "S1mpl3U5er425",
-    "userType": "person",
-    "payMethods": {
-        "credit_card": [
-            {
-                "cardTck": "CARD-XXXXXXXXXXXXXXXXXXXXXXXX",
-                "cardBrand": "VISA"
-            },
-            {
-                "cardTck": "CARD-XXXXXXXXXXXXXXXXXXXXXXXX",
-                "cardBrand": "MASTER-CARD"
-            }
-        ],
-        "cash": {},
-        "paypal": {
-            "accountPaypal": "dguti0917",
-            "paypalTocken": "p4yp41425"
-        }
-    },
-    "activeServices": [
+  "userName": "David Fernando Gutierrez",
+  "nickName": "dguti",
+  "idUser": "S1mpl3U5er425",
+  "userType": "person",
+  "payMethods": {
+    "credit_card": [
+      {
+        "cardTck": "CARD-XXXXXXXXXXXXXXXXXXXXXXXX",
+        "cardBrand": "VISA"
+      },
+      {
+        "cardTck": "CARD-XXXXXXXXXXXXXXXXXXXXXXXX",
+        "cardBrand": "MASTER-CARD"
+      }
+    ],
+    "cash": {},
+    "paypal": {
+      "accountPaypal": "dguti0917",
+      "paypalTocken": "p4yp41425"
+    }
+  },
+  "activeServices": [
+    {
+      "idType": 80,
+      "descType":"Acompañamiento en ruta",
+      "firstPointLat":-33.445436,
+      "firstPointLon":-70.605439,
+      "endPointLat":-33.415167,
+      "endPointLon":-70.571733,
+      "onlyWay": true,
+      "serviceDate": "2019/09/30 22:00:00",
+      "weapon" : {
+        "needed": true,
+        "type": "Defensa Personal"
+      },
+      "bodyguard": [
         {
-            "idType": 80,
-			"descType":"Acompañamiento en ruta",
-			"firstPointLat":-33.445436,
-			"firstPointLon":-70.605439,
-			"endPointLat":-33.415167,
-			"endPointLon":-70.571733,
-			"onlyWay": 1
+          "id": 106027,
+          "name":"Cristian P.",
+          "skills":[
+            "Artes Marciales",
+            "Defensa personal",
+            "Certificado"
+          ],
+          "transportType":"Motocicleta"
 
+        },
+        {
+          "id": 7325972,
+          "name":"Juan Pablo",
+          "skills":[
+            "Certificado"
+          ],
+          "transportType":"Motocicleta",
 
         }
-    ]
+      ],
+      "serviceObservation":"Llamar cuando llegue al lugar, esperarme afuera"
+    }
+  ]
 }
