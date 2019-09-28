@@ -5,12 +5,16 @@ class Preferences extends Component {
   render() {
     return (
       <div>
-        <i class="fas fa-caret-down"></i>
+        <i className="fas fa-caret-down"></i>
         <h5>Preferencias</h5>
         <form>
-          <div class="custom-control custom-checkbox">
-            <input type="checkbox" class="custom-control-input" id="weapon" />
-            <label class="custom-control-label" for="weapon">
+          <div className="custom-control custom-checkbox">
+            <input
+              type="checkbox"
+              className="custom-control-input"
+              id="weapon"
+            />
+            <label className="custom-control-label" htmlFor="weapon">
               Arma
             </label>
           </div>

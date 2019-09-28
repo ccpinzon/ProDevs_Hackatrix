@@ -5,6 +5,7 @@ import { Header } from "./components/Header";
 import { Preferences } from "./components/Preferences";
 import { Summary } from "./components/Summary";
 import { Observations } from "./components/Observations";
+import { Map } from "./components/Map";
 
 class App extends Component {
   constructor() {
@@ -26,7 +27,7 @@ class App extends Component {
           </div>
           <div className="col-xl-5">
             <div className="container">
-              <div className="container" style={{ height: 300 }}></div>
+              <Map />
               <Summary />
             </div>
           </div>
