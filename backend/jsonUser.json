@@ -47,7 +47,7 @@
       "endPointLon":-70.571733,
       "onlyWay": true,
       "paymentType": "credit-card",
-      "serviceDate": "2019/09/30 22:00:00",
+      "serviceDate": "2019/08/20 20:00:00",
       "weapon" : {
         "needed": true,
         "type": "Defensa Personal"
@@ -79,7 +79,7 @@
       "idType": 90,
       "descType":"Acompañamiento Intercambio comercial",
       "ServiceBy": "own",
-      "firstPointLat":4.648796, 
+      "firstPointLat":4.648796,
       "firstPointLon":-74.101426,
       "endPointLat":null,
       "endPointLon":null,
@@ -100,7 +100,15 @@
           "transportType":"Motocicleta"
         }
       ],
-      "serviceObservation":"Llamar cuando llegue al lugar, esperarme afuera"
+      "serviceObservation":"Por favor, anunciarse con el celador"
     }
-  ]
+
+
+  ],
+
+  "summary":{
+    "distance": "15km",
+    "estimatedTime": "50 min",
+    "paymentType": "credit-card"
+  }
 }
