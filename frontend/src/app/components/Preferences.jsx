@@ -15,7 +15,7 @@ class Preferences extends Component {
             </label>
           </div>
           <Form.Group controlId="weaponType">
-            <Form.Label>Servicio para: </Form.Label>
+            <Form.Label>Tipo de armas: </Form.Label>
             <Form.Control as="select">
               <option>No letales</option>
               <option>Fuego</option>
@@ -36,6 +36,23 @@ class Preferences extends Component {
                 ></input>
               </Col>
             </Row>
+            <Form.Group controlId="vehicle">
+              <Form.Label>Vehículo: </Form.Label>
+              <Form.Control as="select">
+                <option>Sin Vehículo</option>
+                <option>Moto</option>
+                <option>Carro</option>
+                <option>Bicicleta</option>
+              </Form.Control>
+            </Form.Group>
+            <Form.Group controlId="level">
+              <Form.Label>Experiencia: </Form.Label>
+              <Form.Control as="select">
+                <option>Principiante</option>
+                <option>Medio</option>
+                <option>Experto</option>
+              </Form.Control>
+            </Form.Group>
           </Form>
         </form>
       </div>
