@@ -21,8 +21,9 @@ async function calculateValueTotal(jsonObject) {
     let value = Math.round(Math.random() * (max - min));
     let discount = 10000;
     jsonObject.discount = Math.round(Math.random() * (max - min));
-    jsonObject.invoiceValue = value - discount;
+    jsonObject.timeValue = (value - discount) / 20;
     jsonObject.distanceValue = (value - discount) / 9;
+    jsonObject.invoiceValue = value - discount;
     return jsonObject;
 }
 
