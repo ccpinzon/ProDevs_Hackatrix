@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import { Form, Row, Col } from "react-bootstrap";
+import { Header } from "./Header";
 
 const axios = require("axios");
 
-class ActiveService extends Component {
+class ActiveServices extends Component {
   constructor(props) {
     super();
     this.state = {
@@ -45,6 +45,7 @@ class ActiveService extends Component {
   render() {
     return (
       <div>
+        <Header></Header>
         <div className="row m-5">
           <div className="col-md-2">
             <img
@@ -87,4 +88,4 @@ class ActiveService extends Component {
   }
 }
 
-export { ActiveService };
+export { ActiveServices };

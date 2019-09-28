@@ -19,7 +19,7 @@ class App extends Component {
         <Header />
         <div className="row">
           <div className="col-md-7">
-            <div className="container">
+            <div className="container px-5">
               <BasicInfo />
               <Preferences />
               <Observations />

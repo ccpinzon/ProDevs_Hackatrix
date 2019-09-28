@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { ListGroup } from "react-bootstrap";
-import { Form, Row, Col } from "react-bootstrap";
+import { Form } from "react-bootstrap";
 
 class Summary extends Component {
   render() {
@@ -15,14 +15,14 @@ class Summary extends Component {
         <ListGroup variant="flush">
           <ListGroup.Item variant="success">Total: $40.000</ListGroup.Item>
           <form>
-          <Form.Group controlId="user">
-            <Form.Label>Medio de pago: </Form.Label>
-            <Form.Control as="select">
-              <option>Efectivo</option>
-              <option>Tarjeta</option>
-              <option>PayPal</option>
-            </Form.Control>
-          </Form.Group>
+            <Form.Group controlId="user">
+              <Form.Label>Medio de pago: </Form.Label>
+              <Form.Control as="select">
+                <option>Efectivo</option>
+                <option>Tarjeta</option>
+                <option>PayPal</option>
+              </Form.Control>
+            </Form.Group>
           </form>
         </ListGroup>
       </ListGroup>
