@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { ListGroup } from "react-bootstrap/ListGroup";
+import { ListGroup } from "react-bootstrap";
 
 class Summary extends Component {
   render() {
@@ -7,7 +7,7 @@ class Summary extends Component {
       <ListGroup variant="flush">
         <ListGroup.Item>Distancia: 10km</ListGroup.Item>
         <ListGroup.Item>Tiempo estimado: 45 minutos</ListGroup.Item>
-        <ListGroup.Item>Valor por diatncia: $38.000</ListGroup.Item>
+        <ListGroup.Item>Valor por distancia: $38.000</ListGroup.Item>
         <ListGroup.Item>Valor por tiempo $10.000</ListGroup.Item>
         <ListGroup.Item>Descuento: 8.000 (cupon 1 vez)</ListGroup.Item>
         <br />

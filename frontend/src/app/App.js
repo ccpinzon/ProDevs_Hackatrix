@@ -3,6 +3,7 @@ import "./sass/main.scss";
 import { BasicInfo } from "./components/BasicInfo";
 import { Header } from "./components/Header";
 import { Preferences } from "./components/Preferences";
+import { Summary } from "./components/Summary";
 
 class App extends Component {
   constructor() {
@@ -19,7 +20,11 @@ class App extends Component {
             <BasicInfo />
             <Preferences />
           </div>
-          <div className="col-xl-5"></div>
+          <div className="col-xl-5">
+            <div className="container" styles="height: 300px;">
+              <Summary />
+            </div>
+          </div>
         </div>
       </div>
     );
