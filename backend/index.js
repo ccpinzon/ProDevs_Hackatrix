@@ -22,6 +22,7 @@ async function calculateValueTotal(jsonObject) {
     let discount = 10000;
     jsonObject.discount = Math.round(Math.random() * (max - min));
     jsonObject.invoiceValue = value - discount;
+    jsonObject.distanceValue = (value - discount) / 9;
     return jsonObject;
 }
 
@@ -46,7 +47,7 @@ exports.dataEscoltApp = async (req, res) => {
 
         jsonObject = getData(jsonObject, data)
     }
-    if (data === "resume") {
+    if (data === "summary") {
         await calculateValueTotal(jsonObject);
     }
     res.send(jsonObject);
